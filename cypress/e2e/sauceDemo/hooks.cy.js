@@ -1,3 +1,4 @@
+/// <reference types="cypress" />
 describe('Sauce Demo Website Tests', () => {
     beforeEach(() => {
         cy.visit('https://www.saucedemo.com/');
@@ -9,7 +10,7 @@ describe('Sauce Demo Website Tests', () => {
 
     describe('Login Feature Tests', () => {
         before(() => {
-            cy.reload(); // Reloads the page ust once
+            cy.reload(); // Reloads the page just once
         })
     });
 

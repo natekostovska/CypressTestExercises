@@ -1,4 +1,5 @@
-import AppActions from '../sauce-demo-pages/task6.cy';
+/// <reference types="cypress" />
+import AppActions from './task6';
 
 describe('Purchase Item Tests', () => {
     it('Successfully purchases an item', () => {
