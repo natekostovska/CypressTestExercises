@@ -18,3 +18,6 @@ import './commands'
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
+// register the grep feature
+// https://github.com/cypress-io/cypress-grep
+import 'cypress-grep';

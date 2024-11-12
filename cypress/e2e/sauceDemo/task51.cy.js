@@ -1,4 +1,5 @@
-import AppActions from '../sauce-demo-pages/task5.cy';
+/// <reference types="cypress" />
+import AppActions from './task5';
 
 describe('Login Feature Tests with App Actions', () => {
     const testData = [

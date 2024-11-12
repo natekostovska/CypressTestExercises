@@ -1,3 +1,5 @@
+/// <reference types="cypress" />
+
 describe('Sauce Demo Website Tests', () => {
     it('Visits Sauce Demo and Checks Title', () => {
         cy.visit('https://www.saucedemo.com/');
@@ -12,3 +14,4 @@ describe('Sauce Demo Website Tests', () => {
         });
     });
 });
+
