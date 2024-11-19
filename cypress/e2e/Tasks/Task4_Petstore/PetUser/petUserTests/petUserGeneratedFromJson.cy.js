@@ -51,8 +51,8 @@ describe('Swagger Petstore - User Endpoints', () => {
     // Modify user details for the update using Faker.js
     const updatedUser = {
       ...user,
-      firstName: faker.name.firstName('female'),
-      lastName: faker.name.lastName('female'),
+      firstName: faker.person.firstName('female'),
+      lastName: faker.person.lastName('female'),
     };
 
     cy.request({
